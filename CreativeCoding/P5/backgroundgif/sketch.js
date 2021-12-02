@@ -2,7 +2,7 @@ let gif;
 
 function preload(){
 
-  gif=loadImage('background.gif');
+  gif=loadImage('assets/background.gif');
 }
 
 
@@ -21,7 +21,7 @@ var num = 20; // number of squares
 
   for (var x = 0; x < windowWidth; x = x + sideLen)
 {//squares in x direction
-    
+
   for (var y = 0; y < windowWidth; y = y + sideLen)
   image (gif,x,y);
 }
