@@ -8,8 +8,7 @@ function preload(){
 }
 
 
-function setup() {
-  // runs ounces
+function setup() {// runs ounces
   createCanvas(windowWidth, windowHeight);
   fill("red");
   strokeWeight(1);
