@@ -16,7 +16,7 @@ function setup() {// runs ounces
 
 function draw() {
 
-var num = 20; // number of squares
+var num = 10; // number of squares
 var sideLen = windowWidth/num; //side length of square
 
   for (var x = 0; x < windowWidth; x = x + sideLen) {//squares in x direction
