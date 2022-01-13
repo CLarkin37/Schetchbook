@@ -9,7 +9,7 @@ function preload(){
 
 
 function setup() {// runs ounces
-  createCanvas(windowWidth, windowHeight);
+  createCanvas(windowWidth, windowHeight*2);
   fill("red");
   strokeWeight(1);
 }
@@ -20,7 +20,7 @@ var num = 9; // number of squares
 var sideLen = windowWidth/num; //side length of square
 
   for (var x = 0; x < windowWidth; x = x + sideLen) {//squares in x direction
-    for (var y = 0; y < windowHeight; y = y + sideLen) {// in y direction
+    for (var y = 0; y < windowHeight*2; y = y + sideLen) {// in y direction
 image(gif, x, y, windowWidth*0.98/num, windowWidth*0.98/num);
   }
   function windowResized(){
